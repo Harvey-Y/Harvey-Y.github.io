@@ -1,0 +1,89 @@
+body {
+    background-color: #2B2E37;
+}
+nav.top-nav{
+    position: fixed;
+    background-color: #2B2E37;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 1px white;
+}
+nav.top-nav li{
+    float: right;
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 5px 40px 5px 5px;
+    user-select: none;
+    color: white;
+}
+nav.top-nav li.bold{
+    float: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size:larger;
+}
+nav.top-nav li:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+}
+main{
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 2em;
+}
+.bioPhoto {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.bio{
+    height: 1000px;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-bottom: 200px;
+    float: left;
+    color: white;
+    /* opacity: 0.8; */
+}
+.bio a{
+    color: white;
+    text-decoration: none;
+}
+.bio a:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+}
+.bioPhoto:hover {
+    opacity: 0.8;
+}
+.projectGrid{
+    float: left;
+    height: 320px;
+    width: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: white;
+}
+.projectPhoto{
+    height: 210px;
+    width: 300px;
+    border-radius: 5%;
+}
+.projectGrid a{
+    color: white;
+    text-decoration: none;
+}
+.projectGrid h2{
+    text-decoration: underline;
+}
+.diabetesPage{
+    margin-right: 50px;
+}
+.eduImage{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
